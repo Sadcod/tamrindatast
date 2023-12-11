@@ -12,7 +12,7 @@ def bubble_sort(names):
     return names
 
 # meghdar
-names = (
+ list names = [
     {'First Name': 'Raj', 'Last Name': 'Nayyar'},
     {'First Name': 'Suraj', 'Last Name': 'Sharma'},
     {'First Name': 'Karan', 'Last Name': 'Kumar'},
@@ -28,7 +28,7 @@ names = (
     {'First Name': 'Ingrid', 'Last Name': 'Maverick'},
     {'First Name': 'Aahana', 'Last Name': 'Arora'}
 
-)
+]
 sort_names = bubble_sort(names)
 print(sort_names)
 #bakhshe dovome 
