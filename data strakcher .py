@@ -1,3 +1,4 @@
+#bakhshe aval project 
 def bubble_sort(names):
     for i in range(len(names)-1):
         min_index = i
@@ -5,13 +6,13 @@ def bubble_sort(names):
             if names[j]['Last Name'] < names[min_index]['Last Name']:
                 min_index = j
             elif names[j]['Last Name'] == names[min_index]['Last Name']:
-                if names[j]['First Name'] < names[min_index]['First Name']:
+                elif  names[j]['First Name'] < names[min_index]['First Name']:
                     min_index = j
         names[i], names[min_index] = names[min_index], names[i]
     return names
 
-# Example usage
-names = [
+# meghdar
+names = (
     {'First Name': 'Raj', 'Last Name': 'Nayyar'},
     {'First Name': 'Suraj', 'Last Name': 'Sharma'},
     {'First Name': 'Karan', 'Last Name': 'Kumar'},
@@ -26,11 +27,10 @@ names = [
     {'First Name': 'Armaan', 'Last Name': 'Dadra'},
     {'First Name': 'Ingrid', 'Last Name': 'Maverick'},
     {'First Name': 'Aahana', 'Last Name': 'Arora'}
-]
 
+)
 sort_names = bubble_sort(names)
 print(sort_names)
-# bakhshe avale proje jahate sort kardan 
 #bakhshe dovome 
 import matplotlib.pyplot as plt
 import random
@@ -73,5 +73,5 @@ for size in data_sizes:
 plt.plot(data_sizes, sorting_times)
 plt.xlabel('Meghdar dada vorod shodeh ')
 plt.ylabel('time mohasebe dagigh')
-plt.title( "VS tedad data vorodi modat time mohasebe|  doktor:Eskandari")
+plt.title( " tedad data vorodi modat  mohasebe \\ time   doktor:Eskandari")
 plt.show()
