@@ -6,7 +6,7 @@ def bubble_sort(names):
             if names[j]['Last Name'] < names[min_index]['Last Name']:
                 min_index = j
             elif names[j]['Last Name'] == names[min_index]['Last Name']:
-                elif  names[j]['First Name'] < names[min_index]['First Name']:
+                 elif  names[j]['First Name'] < names[min_index]['First Name']:
                     min_index = j
         names[i], names[min_index] = names[min_index], names[i]
     return names
